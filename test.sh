@@ -23,3 +23,5 @@ else
 echo "Submitting samples listed in '$sample_list' for alignment"
 cat $sample_list
 fi
+
+echo $account_department
