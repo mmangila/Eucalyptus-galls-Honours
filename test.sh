@@ -3,7 +3,7 @@
 set -xeuo pipefail
 
 usage="USAGE:
-bash 02-subread_qsub.sh <sample_list.txt> <walltime> <memory> <account_department> <genome_index> <aligner>"
+bash test.sh <sample_list.txt> <walltime> <memory> <account_department> <genome_index> <aligner>"
 
 #define stepo in the pipeline - should be the same name as the script
 step=02-subread
